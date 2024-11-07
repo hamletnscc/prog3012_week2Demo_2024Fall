@@ -1,3 +1,4 @@
+
 // Change the text of the paragraph
 function changeText() {
     const textElement = document.getElementById("text");
@@ -16,4 +17,17 @@ function addListItem() {
     const newItem = document.createElement("li");
     newItem.innerText = `Item ${itemList.children.length + 1}`;
     itemList.appendChild(newItem);
+    
+}
+
+// remove the last item from the list
+function removeListItem() {
+    const itemList = document.getElementById("itemList");
+    
+}
+
+//Change the whole page
+function changeWholePage(aName)
+{
+    let bodyNode = document.getElementById("text").innerHTML=`<h3>New Content ${aName}</h3>`;
 }
